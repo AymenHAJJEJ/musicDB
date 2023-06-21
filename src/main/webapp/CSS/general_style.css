@@ -1,0 +1,148 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+
+body {
+	font-family: 'Playfair Display', sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+.poster-side{
+	display: flex;
+	flex-direction: inherit;
+}
+.centered-cell {
+    vertical-align: middle;
+}
+
+td{
+	font-size: 20px;
+}
+.card {
+	background-color: #000;
+	border: 2px solid #fff;
+}
+
+.card-header {
+	background-color: #fff;
+	color: #000;
+}
+
+.index-logo {
+	margin-top: -39px;
+	width: 250px;
+	display: flex;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #40353e;
+	color: #cecece;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	text-decoration: none;
+	margin: auto;
+}
+ a.nav-link {
+        text-decoration: none;
+        color: inherit;
+    }
+a{
+	      color: #ffffff;
+    text-decoration: none;
+    color: inherit;
+}
+.btn:hover {
+	background-color: #606060;
+}
+
+.navbar {
+	background-color: black;
+	padding: 10px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.navbar ul:first-child {
+	margin-right: auto;
+}
+
+.navbar ul:last-child {
+	margin-left: auto;
+}
+
+.navbar li {
+	margin-right: 10px;
+}
+
+.navbar li:last-child {
+	margin-right: 0;
+}
+
+.navbar li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	transition: background-color 0.3s ease;
+}
+
+tbody {
+	color: white;
+}
+
+th {
+	color: white;
+}
+
+.navbar li a:hover {
+	background-color: #666;
+}
+
+.search-form {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.search-form input[type="text"] {
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+}
+
+.search-form input[type="submit"] {
+	padding: 5px 10px;
+	margin-left: 5px;
+	background-color: #666;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+}
+
+.action {
+	gap : 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.search-form input[type="submit"]:hover {
+	background-color: #999;
+}
+
+.nav-logo {
+	width: 68px;
+	margin-right: 10px;
+}
